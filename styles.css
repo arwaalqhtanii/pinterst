@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-left img {
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.navbar-left a,
+.navbar-right a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    height: 100%;
+    padding: 0 15px;
+  
+}
+
+.navbar-right a.login {
+    color: white;
+    background-color: #E60023;
+    border-radius: 4px;
+
+}
+
+.navbar-right a.signup {
+    color: #333;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+
+}
+
+
+
+/*اللي في النص*/
+
+.text-container {
+    text-align: center;
+    margin: 4%;
+
+}
+
+.text-container h1 {
+    font-size: 24px;
+    color: black;
+  
+
+}
+
+.text-container .idea {
+    font-size: 24px;
+    color: #dba92b;
+    font-weight: bold;
+}
+
+.dots {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.dots .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 3px;
+    background-color: #D4A017;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dots .dot.gray {
+    background-color: #ccc;
+}
+
+/*imgggg*/
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    overflow: hidden;
+    margin-top: 3%;
+}
+
+.gallery img {
+    width: 160px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.img1 {
+    transform: translate(-38rem, -6rem);
+}
+
+.img2 {
+    transform: translate(-25rem, -35rem);
+}
+
+.img3 {
+    transform: translate(-13rem, -60rem);
+}
+
+.img4 {
+    transform: translate(0rem, -89rem);
+
+}
+
+.img5 {
+    transform: translate(13rem, -126.5rem);
+}
+
+.img6 {
+    transform: translate(25rem, -167rem);
+}
+
+.img7 {
+    transform: translate(37rem, -205rem);
+}
+
+
+
+.footer {
+    margin-top: 500px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    background-color: #ffffe0;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+
+}
